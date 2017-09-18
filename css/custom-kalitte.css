@@ -61,6 +61,7 @@ footer {
 .gallery-thumb img {
     margin-top: 25%;
     max-height: 248px;
+    margin: 25% auto;
 }
 
 .editContent {
@@ -142,13 +143,21 @@ footer {
     .info-text {
         min-height: 140px;
     }
+
+    .contact-page .box-area {
+        min-height: 190px;
+        font-weight: bold;
+        line-height: 20px;
+        vertical-align: middle;
+        line-height: 2em;
+    }
 }
 
 .gallery-item {
     -webkit-box-shadow: 0 4px 8px 0 rgba(69,96,144,1);
     -moz-box-shadow: 0 4px 8px 0 rgba(69,96,144,1);
     box-shadow: 0 4px 8px 0 rgba(69,96,144,1);
-    min-height: 560px;
+    min-height: 600px;
     padding: 2px 16px;
     border: 1px #458dd4 solid;
     padding-top: 10px;
@@ -159,3 +168,13 @@ footer {
     -moz-box-shadow: 0 8px 16px 0 rgba(69,96,144,1);
     box-shadow: 0 8px 16px 0 rgba(69,96,144,1);
 }
+
+.contact-page h3 {
+    padding-left: 15px;
+}
+
+.news-date {
+    text-align: right;
+    font-weight: bold;
+}
+
