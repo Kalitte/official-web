@@ -130,6 +130,7 @@ jQuery(document).ready(function ($) {
 			itemSelector: '.gallery-item-wrapper',
 			filter: '.guncel'
 		});
+		$('.first-filter').addClass('active')
 		$('.filter a').click(function () {
 			var selector = $(this).attr('data-filter');
 			$container.isotope({ filter: selector });
