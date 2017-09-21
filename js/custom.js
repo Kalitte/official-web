@@ -127,7 +127,8 @@ jQuery(document).ready(function ($) {
 	$(window).load(function () {
 		// Initialize Isotope
 		$container.isotope({
-			itemSelector: '.gallery-item-wrapper'
+			itemSelector: '.gallery-item-wrapper',
+			filter: '.guncel'
 		});
 		$('.filter a').click(function () {
 			var selector = $(this).attr('data-filter');
