@@ -178,3 +178,8 @@ footer {
     font-weight: bold;
 }
 
+.flex-caption {
+    background: rgba(0,0,0,0.1);
+    border-radius: 0;
+    width: initial !important;
+}
